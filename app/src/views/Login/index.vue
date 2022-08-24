@@ -1,7 +1,7 @@
 <template>
-<div>我是登录页</div>
-
-
+  <div class="">
+    我是登录页
+  </div>
 </template>
 
 <script>

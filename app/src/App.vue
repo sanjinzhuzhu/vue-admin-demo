@@ -32,7 +32,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #ecf0f3;
+  color: #18191a;
   font-size: 10px;
   margin-top: 20px;
 }

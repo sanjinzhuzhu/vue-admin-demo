@@ -28,11 +28,16 @@ export default {
 </script>
 
 <style>
+* {
+margin: 0;
+padding: 0;
+}
 .grid-container {
   display: grid;
+  /* display: grid; */
   grid-column-gap: 200px;
   grid-template-columns: auto auto auto auto;
-  background-image: linear-gradient(to left,pink,rgb(243, 243, 151));
+  background-image: linear-gradient(to left, pink, rgb(243, 243, 151));
   padding: 100px;
   grid-row-gap: 90px;
 }
