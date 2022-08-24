@@ -16,7 +16,21 @@ export default new VueRouter({
         {
             path: "/myzone",
             component: () => import("@/views/MyZone"),
-            meta: { show: false }
+            meta: { show: false },
+
+            children: [
+                {
+                    path: "/mylearning",
+                    component: () => import("@/views/MyZone/MyLearning"),
+                    meta: { show: false },
+                },
+                {
+                    path: "/workspace",
+                    component: () => import("@/views/MyZone/WorkSpace"),
+                    meta: { show: false },
+                },
+
+            ]
         },
         {
             path: '*',

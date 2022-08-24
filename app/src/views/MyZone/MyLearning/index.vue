@@ -1,13 +1,12 @@
 <template>
- 
+  <div>学习</div>
 </template>
 
 <script>
 export default {
-name:'',
-}
+  name: "MyLearning",
+};
 </script>
 
 <style>
-
 </style>
