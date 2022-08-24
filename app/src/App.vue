@@ -3,7 +3,7 @@
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <Header></Header>
-    <Footer>我是底部</Footer>
+    <Footer></Footer>
     
   </div>
 </template>
