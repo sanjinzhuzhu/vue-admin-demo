@@ -1,17 +1,17 @@
 <template>
   <div class="grid-container" id="gradl">
-    <div class="grid-item">box</div>
-    <div class="grid-item">box</div>
-    <div class="grid-item">box</div>
-    <div class="grid-item">box</div>
-    <div class="grid-item">box</div>
-    <div class="grid-item">box</div>
-    <div class="grid-item">box</div>
-    <div class="grid-item">box</div>
-    <div class="grid-item">box</div>
-    <div class="grid-item">box</div>
-    <div class="grid-item">box</div>
-    <div class="grid-item">box</div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
   </div>
 </template>
 
@@ -29,8 +29,9 @@ export default {
 
 <style>
 * {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .grid-container {
   display: grid;
@@ -43,11 +44,11 @@ padding: 0;
 }
 
 .grid-item {
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   background: url("~@/assets/cudedark.gif");
   background-size: 100% 100%;
   border: 1px solid rgba(234, 229, 229, 0.8);
-  padding: 30px;
-  font-size: 30px;
+  padding: 50px;
   text-align: center;
   border-radius: 25px;
 }

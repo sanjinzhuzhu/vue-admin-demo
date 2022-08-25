@@ -27,13 +27,11 @@ export default {
 </script>
 
 <style>
-#app {
+/* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #18191a;
-  font-size: 10px;
-  margin-top: 20px;
-}
+
+} */
 </style>
